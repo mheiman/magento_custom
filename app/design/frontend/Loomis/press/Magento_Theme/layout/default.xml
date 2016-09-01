@@ -10,5 +10,15 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="sidebar.additional" remove="true" />
+
+
+    <referenceBlock name="footer_links">
+        <block class="Magento\Framework\View\Element\Html\Link\Current" name="your-link-name">
+            <arguments>
+                <argument name="label" xsi:type="string">About Us</argument>
+                <argument name="path" xsi:type="string">/about_us</argument>
+            </arguments>
+        </block>
+    </referenceBlock>
     </body>
 </page>
