@@ -16,7 +16,7 @@
         <block class="Magento\Framework\View\Element\Html\Link\Current" name="about_us">
             <arguments>
                 <argument name="label" xsi:type="string">About Us</argument>
-                <argument name="path" xsi:type="string">/about_us</argument>
+                <argument name="path" xsi:type="string">about</argument>
             </arguments>
         </block>
     </referenceBlock>
